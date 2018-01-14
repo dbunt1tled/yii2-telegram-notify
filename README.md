@@ -30,7 +30,7 @@ Once the extension is installed, simply use it in your code by  :
 ```php
 <?php
     $client = new yii\httpclient\Client();
-    $botTelegram = new TelegramNotify('512991499:AAFLnQSxee321ZrXAm8D8BikkeO4G7hO_Js',$client);
+    $botTelegram = new TelegramNotify($tokenYourBot,$client);
     $botTelegram->sendMessage('Всем привет'); 
 ?>
 ```
