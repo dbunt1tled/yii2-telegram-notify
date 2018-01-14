@@ -1,0 +1,21 @@
+{
+    "name": "dbunt1tled/yii2-telegram-notify",
+    "description": "Send Notify Trigger All Conatcts",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","telegram","notify"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dbunt1tled",
+            "email": "dbalagov@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "dbunt1tled\\telegramNotify\\": ""
+        }
+    }
+}
