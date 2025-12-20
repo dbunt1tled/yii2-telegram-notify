@@ -7,7 +7,7 @@
  *
  * Send All Contacts Message
  * $client = new yii\httpclient\Client();
- * $botTelegram = new TelegramNotify('512991499:AAFLnQSxee321ZrXAm8D8BikkeO4G7hO_Js',$client);
+ * $botTelegram = new TelegramNotify('512491499:AAFLnQSxee321ArXAm8D8BikmeO4G7hO_Js',$client);
  * $botTelegram->sendMessage('Всем привет');
  *
  * @property string $_url Урл API Telegram
